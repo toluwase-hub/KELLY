@@ -1,0 +1,368 @@
+.hero{
+    background: url(hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1);
+    width: 100%;
+    height: 650px;
+}
+body{
+    overflow-x: hidden;
+    background-color: #FEFEFE;
+}
+.navback{
+    background-color: #E9E8E6;
+    box-shadow: 0 0 20px rgb(216, 216, 216);
+}
+.herotext1{
+    font-size: 50px;
+    color: #222222;
+}
+.textbu{
+    background-color: #34B7A7;
+}
+.textbu:hover{
+    background-color: #59d3c5;
+}
+.active {
+    color: #59d3c5 !important;
+}
+.nav-item{
+    overflow: hidden;
+}
+.navunder{
+    border-top: 2px solid #34B7A7;
+    transform: translateX(-115px);
+    transition: 0.5s;
+}
+.nav-item:hover .navunder{
+    transform: translateX(0px);
+}
+
+.nav-link:hover{
+    color:  #59d3c5;
+}
+.underline{
+    border-bottom: 3px solid #34B7A7;
+    width: 50px;
+}
+i{
+    transition: 0.5s;
+}
+nav i:hover{
+    color: #34B7A7 !important;
+}
+.all{
+    font-size: 14px;
+    color: rgb(97, 94, 94);
+}
+footer{
+    background-color: #E9E8E6;
+}
+.foul5{
+    border: 1px solid rgb(97, 94, 94);
+    width: 40px;
+    height: 40px;
+    transition: 0.5s;
+}
+.foul5:hover{
+    border: 1px solid  #34B7A7 ;
+}
+.foul6{
+    color: #1a8f81;
+    transition: 0.5s;
+}
+.foul6:hover{
+    color: #4dbdb0;
+}
+.aboutimg{
+    width: 350px;
+    height: 380x;
+    transition: 0.5s;
+}
+.aboutimg:hover{
+    scale: 1.02;
+}
+.fact1{
+    font-size: 50px;
+}
+.testpic{
+    width: 100px;
+    height: 100px;
+}
+.starr i{
+    color: gold;
+}
+.range{
+    top: -25px;
+}
+.range1{
+    right: 0px;
+    top: -25px;
+}
+.prof{
+    border-left: 2px solid #34B7A7 ;
+}
+.sum{
+    top: -15px;
+    left: -11px;
+    color: #34B7A7;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px rgb(190, 188, 188);
+    transform: translateY(-2px);
+    transition: 0.5s;
+}
+.card1{
+     background-color: #F6F6F6;
+     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+     transition: 0.5s;
+}
+.card1 i{
+    color: #2BD6F3;
+}
+.card:hover .card1 i{
+    color: white;
+}
+.card:hover .card1{
+    background-color:#2BD6F3 ;
+}
+.card2{
+    transition: 0.5s;
+    background-color: #F6F6F6;
+    border-radius: 50% 50% 50% 0%  ;
+}
+.card2 i {
+    color: #FD7E14;
+}
+.card:hover .card2{
+    background-color:  #FD7E14 ;
+}
+.card:hover .card2 i{
+    color: white;
+}
+.card3{
+    transition: 0.5s;
+    background-color: #F6F6F6;
+    border-radius: 0% 60% 60% 30% / 40% 30% 40% 70% ;
+}
+.card3 i {
+    color: #20C997;
+}
+.card:hover .card3{
+    background-color: #20C997 ;
+}
+.card:hover .card3 i{
+    color: white;
+}
+.card4{
+    transition: 0.5s;
+    background-color: #F6F6F6;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+.card4 i {
+    color: #DF152F;
+}
+.card:hover .card4{
+    background-color:  #DF152F ;
+}
+.card:hover .card4 i{
+    color: white;
+}
+.card5{
+    transition: 0.5s;
+    background-color: #F6F6F6;
+    border-radius: 60% 0% 30% 70% / 60% 30% 70% 40%;
+}
+.card5 i {
+    color: #6610F2;
+}
+.card:hover .card5{
+    background-color:  #6610F2;
+}
+.card:hover .card5 i{
+    color: white;
+}
+.card6{
+    transition: 0.5s;
+    background-color: #F6F6F6;
+    border-radius: 60% 40% 30% 70% / 60% 30% 0% 40%;
+}
+.card6 i {
+    color:#F3268C;
+}
+.card:hover .card6{
+    background-color:  #F3268C;
+}
+.card:hover .card6 i{
+    color: white;
+}
+/* port1 */
+.parent{
+    width: 350px;
+    height: 380px;
+    overflow: hidden;
+}
+.port{
+    background-color: #34B7A7;
+}
+.port:hover{
+   background-color: #68cec2;
+
+}
+.port1{
+    background-color: #F6F6F6 ;
+    transition: 0.5s;
+}
+.port1:hover{
+    background-color: #34B7A7;
+    color: white;
+}
+.parent:hover .over{
+    transform: translateY(-100px);
+}
+.over1{
+    right: 12px;
+    top: 30%;
+}
+.over1 i{
+    color: rgb(168, 165, 165);
+    transition: 0.5s;
+}
+.over1 i:hover{
+    color: #20C997;
+}
+.port2{
+    width: 350px;
+    height: 380px;
+}
+.parent3{
+    height: 500px;
+    overflow: hidden;
+}
+.port3{
+    height: 500px;
+    width: 350px;
+}
+.parent3:hover .over{
+    transform: translateY(-100px);
+}
+.over{
+    background: white;
+    width: 350px;
+    transition: 0.5s;
+}
+.parent4{
+    height: 240px;
+    overflow: hidden;
+}
+.port4{
+    height: 240px;
+    width: 350px;
+}
+.parent4:hover .over{
+    transform: translateY(-100px);
+}
+.parent5{
+    height: 500px;
+    overflow: hidden;
+}
+.port5{
+    height: 500px;
+    width: 350px;
+}
+.parent5:hover .over{
+    transform: translateY(-100px);
+}
+.parent6{
+    height: 240px;
+    overflow: hidden;
+}
+.port6{
+    height: 240px;
+    width: 350px;
+}
+.parent6:hover .over{
+    transform: translateY(-100px);
+}
+.parent7{
+    height: 210px;
+    overflow: hidden;
+}
+.port7{
+    height: 210px;
+    width: 350px;
+}
+.parent7:hover .over{
+    transform: translateY(-100px);
+}
+@media (max-width:900px) {
+  .picture{
+    margin: auto;
+} 
+.aboutimg{
+    width: 100%;
+}
+}
+.coninput{
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 20px rgb(216, 216, 216);
+}
+.conadd{
+ background-color: #FFFFFF;
+    box-shadow: 0 0 20px rgb(216, 216, 216);  
+    transition: 0.3s; 
+}
+.conadd:hover{
+    scale: 1.01;
+}
+.comimg{
+    width: 400px;
+    height: 300px;
+}
+.conicon{
+    background-color: #EFFAF8;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+}
+.icon{
+   color:  #20C997;
+   transition: 0.5s; 
+}
+.conwhole:hover .conicon{
+    background-color:  #20C997 ;
+}
+.conwhole:hover .icon{
+    color: white;
+}
+.conbot{
+     background-color: #34B7A7;
+    transition: 0.3s;
+}
+.conbot:hover{
+    background-color: #59d3c5;
+}
+iframe{
+    width: 100%;
+    border-radius: 5px;
+}
+@media (max-width:900px) {
+    .comimg{
+        width: 100%;
+    }
+    .conbot{
+        margin-bottom: 15px;
+    }
+    .navunder{
+        display: none;
+    }
+}
+.hmmm{
+    background-color: #34B7A7;
+}
+
+
+
